@@ -5,8 +5,22 @@ package barrionuevo.tp6;
 ** Trabajo Práctico 6: colecciones Map - TreeMap
 ** Alumno: Barrionuevo Pablo
 ** Consigna:
-
-**
+Un directorio telefónico posee una lista de Clientes de los que interesa conocer su dni,
+nombre, apellido, ciudad y dirección.
+El directorio telefónico posee además las siguientes funcionalidades:
+● agregarCliente() que permite registrar un nuevo cliente con su respectivo nro de
+teléfono. Siendo el nro del teléfono la clave del mismo.
+● buscarCliente() que en base al nro de teléfono retorna el Cliente asociado al
+mismo.
+● buscarTeléfono() que en base a un apellido nos devuelve una lista con los nros de
+teléfono asociados a dicho apellido.
+● buscarClientes() que en base a una ciudad nos devuelve una lista con los Clientes
+asociados a dicha ciudad.
+● borrarCliente() que en base a un dni elimina el cliente del directorio.
+Importante: Armar el modelo UML representado las clases necesarias. Implementar en java.
+Vistas sugeridas para las funcionalidades (utilice JInternalFrame y que sean
+accedidas desde un menú principal): AgregarClientes, BuscarCliente y BorrarCliente.
+** Repositorio GIT: https://github.com/PabloBarrionuevo/Lab1-TP6/tree/master
 ***************************************************************************** */
 public class DirectorioTel {
     //atributo de tipo Directorio para usar en pruebas y vistas
